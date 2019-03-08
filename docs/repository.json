@@ -1,8 +1,18 @@
 {
-  "name": "[PLACEHOLDER]",
-  "tagline": "[PLACEHOLDER]",
+  "name": "AWS Route53 Subdomains Terraform module",
+  "slug": "terraform-aws-route53-subdomains",
+  "namespace": "aws",
+  "project": "infraprints",
+  "description": "Represents a top level domain that uses external hosted zones for DNS management.",
   "license": {
-    "name": "[PLACEHOLDER]"
+    "name": "MIT"
   },
-  "tags": ["[PLACEHOLDER]"]
+  "tags": [
+    "terraform",
+    "terraform-module",
+    "aws",
+    "aws-route53",
+    "dns",
+    "cross-account"
+  ]
 }
