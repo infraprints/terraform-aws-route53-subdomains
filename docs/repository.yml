@@ -1,5 +1,5 @@
 ---
-name: AWS Route53 Subdomains Terraform module
+name: AWS Route53 Subdomains
 slug: route53-subdomains
 project: infraprints
 namespace: [terraform, aws]
