@@ -1,0 +1,15 @@
+---
+name: AWS Route53 Subdomains Terraform module
+slug: route53-subdomains
+project: infraprints
+namespace: [terraform, aws]
+description: Represents a top level domain that uses external hosted zones for DNS management.
+license:
+  name: MIT
+tags:
+  - terraform
+  - terraform-module
+  - aws
+  - aws-route53
+  - dns
+  - networking
