@@ -10,6 +10,4 @@ tags:
   - terraform
   - terraform-module
   - aws
-  - aws-route53
-  - dns
-  - networking
+  - 
