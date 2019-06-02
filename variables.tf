@@ -19,7 +19,11 @@ variable "hostname" {
 }
 
 variable "hosted_zones" {
-  type        = list(string)
+  type = list(object({
+    network_number    = number
+    availability_zone = string
+    tags              = map(string)
+  }))
   description = "items"
 }
 
