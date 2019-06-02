@@ -1,16 +1,16 @@
 variable "name" {
-  type        = "string"
+  type        = string
   description = "This is the name of the hosted zone."
 }
 
 variable "comment" {
-  type        = "string"
+  type        = string
   description = "A comment for the hosted zone."
   default     = "The top level of a subdomain hosted zone."
 }
 
 variable "tags" {
-  type        = "map"
+  type        = map(string)
   description = "A mapping of tags to assign to the zone."
 }
 
@@ -19,6 +19,11 @@ variable "hostname" {
 }
 
 variable "hosted_zones" {
-  type        = "list"
+  type = list(object({
+    network_number    = number
+    availability_zone = string
+    tags              = map(string)
+  }))
   description = "items"
 }
+
